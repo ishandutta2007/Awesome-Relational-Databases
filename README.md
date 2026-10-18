@@ -1,6 +1,6 @@
 # Awesome-Relational-Databases
 
-# Top Relational Databases Ecosystem
+## Top Relational Databases Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on ACID Transactions, SQL Standards Compliance & Horizontal Scalability*  
