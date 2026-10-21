@@ -65,133 +65,133 @@ The following repositories represent the leading open-source relational database
 
 ---
 
-### 1. [Supabase](https://github.com/supabase/supabase) [![GitHub stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers)
+### 1. [Supabase](https://github.com/supabase/supabase) [![GitHub_Stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers)
 - **License**: Apache-2.0
 - **Overview**: The open-source Firebase alternative built natively on top of PostgreSQL. Provides instant auto-generated RESTful and GraphQL APIs, real-time database subscriptions via WebSockets, built-in authentication, storage, and pgvector embeddings while maintaining 100% standard SQL and ACID transaction compatibility.
 - **Key Capabilities**: Full PostgreSQL access, real-time CDC (Change Data Capture), fine-grained Row-Level Security (RLS), and AI vector search.
 
 ---
 
-### 2. [DuckDB](https://github.com/duckdb/duckdb) [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)
+### 2. [DuckDB](https://github.com/duckdb/duckdb) [![GitHub_Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)
 - **License**: MIT
 - **Overview**: An in-process, columnar relational SQL database management system engineered for analytical (OLAP) query workloads. Often referred to as the "SQLite for analytics," DuckDB executes directly within the host process memory space without separate server daemon management.
 - **Key Capabilities**: Vectorized columnar query execution, native reading and writing of Parquet, JSON, Iceberg, and CSV, and full ACID transaction guarantees on local database files.
 
 ---
 
-### 3. [TiDB](https://github.com/pingcap/tidb) [![GitHub stars](https://img.shields.io/github/stars/pingcap/tidb?style=social&color=white)](https://github.com/pingcap/tidb/stargazers)
+### 3. [TiDB](https://github.com/pingcap/tidb) [![GitHub_Stars](https://img.shields.io/github/stars/pingcap/tidb?style=social&color=white)](https://github.com/pingcap/tidb/stargazers)
 - **License**: Apache-2.0
 - **Overview**: PingCAP's distributed Hybrid Transactional and Analytical Processing (HTAP) database. Designed to deliver horizontal scale-out for relational workloads with MySQL wire and syntax compatibility.
 - **Key Capabilities**: Strong consistency via Multi-Raft consensus, automated horizontal sharding, decoupled compute (TiDB) and storage (TiKV row-store + TiFlash columnar engine), and real-time operational analytics without ETL.
 
 ---
 
-### 4. [CockroachDB](https://github.com/cockroachdb/cockroach) [![GitHub stars](https://img.shields.io/github/stars/cockroachdb/cockroach?style=social&color=white)](https://github.com/cockroachdb/cockroach/stargazers)
+### 4. [CockroachDB](https://github.com/cockroachdb/cockroach) [![GitHub_Stars](https://img.shields.io/github/stars/cockroachdb/cockroach?style=social&color=white)](https://github.com/cockroachdb/cockroach/stargazers)
 - **License**: BSL 1.1 / CCL
 - **Overview**: A cloud-native, distributed SQL database modeled after Google Spanner. Engineered to provide horizontal scaling, zero-downtime multi-region survivability, and serializable transactional consistency without proprietary hardware.
 - **Key Capabilities**: Serializable ACID isolation, automated data range splitting and repair, multi-datacenter consensus via Raft, and PostgreSQL dialect wire compatibility.
 
 ---
 
-### 5. [Dolt](https://github.com/dolthub/dolt) [![GitHub stars](https://img.shields.io/github/stars/dolthub/dolt?style=social&color=white)](https://github.com/dolthub/dolt/stargazers)
+### 5. [Dolt](https://github.com/dolthub/dolt) [![GitHub_Stars](https://img.shields.io/github/stars/dolthub/dolt?style=social&color=white)](https://github.com/dolthub/dolt/stargazers)
 - **License**: Apache-2.0
 - **Overview**: "Git for data"—a relational database with native Git-like version control mechanics (branching, merging, commits, diffing, pushing, and pulling) implementing MySQL protocol compatibility.
 - **Key Capabilities**: Prolly tree content-addressed storage engine, cell-level data and schema merges, point-in-time historical data auditability, and ACID transactions.
 
 ---
 
-### 6. [TimescaleDB](https://github.com/timescale/timescaledb) [![GitHub stars](https://img.shields.io/github/stars/timescale/timescaledb?style=social&color=white)](https://github.com/timescale/timescaledb/stargazers)
+### 6. [TimescaleDB](https://github.com/timescale/timescaledb) [![GitHub_Stars](https://img.shields.io/github/stars/timescale/timescaledb?style=social&color=white)](https://github.com/timescale/timescaledb/stargazers)
 - **License**: Apache-2.0 / Timescale License
 - **Overview**: An open-source relational time-series database packaged as an extension for PostgreSQL. Delivers automated time-based partitioning and columnar compression while preserving full SQL joins and relations.
 - **Key Capabilities**: Hypertables for auto-partitioning across time and space, up to 95% columnar compression, continuous aggregates, and complete interoperability with the entire PostgreSQL ecosystem.
 
 ---
 
-### 7. [pgvector](https://github.com/pgvector/pgvector) [![GitHub stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers)
+### 7. [pgvector](https://github.com/pgvector/pgvector) [![GitHub_Stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers)
 - **License**: PostgreSQL License
 - **Overview**: Open-source vector similarity search extension for PostgreSQL. Enables relational databases to store high-dimensional embeddings and execute vector search alongside structured business tables within single ACID transactions.
 - **Key Capabilities**: HNSW and IVFFlat indexing algorithms, L2 distance, cosine distance, inner product, and seamless execution with PostgreSQL joins, indexes, and filters.
 
 ---
 
-### 8. [PostgreSQL](https://github.com/postgres/postgres) [![GitHub stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers)
+### 8. [PostgreSQL](https://github.com/postgres/postgres) [![GitHub_Stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers)
 - **License**: PostgreSQL License (Permissive)
 - **Overview**: Widely recognized as the world's most advanced open-source relational database. Features complete SQL standard compliance, multi-version concurrency control (MVCC), rich data indexing (B-tree, GiST, GIN, BRIN), and an unmatched open extension ecosystem.
 - **Key Capabilities**: Native JSONB semi-structured documents, table partitioning, asynchronous I/O (`io_uring`), complex window functions, and rock-solid ACID reliability.
 
 ---
 
-### 9. [Vitess](https://github.com/vitessio/vitess) [![GitHub stars](https://img.shields.io/github/stars/vitessio/vitess?style=social&color=white)](https://github.com/vitessio/vitess/stargazers)
+### 9. [Vitess](https://github.com/vitessio/vitess) [![GitHub_Stars](https://img.shields.io/github/stars/vitessio/vitess?style=social&color=white)](https://github.com/vitessio/vitess/stargazers)
 - **License**: Apache-2.0 (CNCF Graduated)
 - **Overview**: A database clustering middleware for horizontal scaling of MySQL. Originally created by YouTube to manage massive petabyte-scale relational traffic, Vitess abstracts sharding and connection pooling transparently.
 - **Key Capabilities**: Dynamic resharding, connection multiplexing (VTGate), distributed query planning, and Kubernetes integration via Vitess Operator.
 
 ---
 
-### 10. [rqlite](https://github.com/rqlite/rqlite) [![GitHub stars](https://img.shields.io/github/stars/rqlite/rqlite?style=social&color=white)](https://github.com/rqlite/rqlite/stargazers)
+### 10. [rqlite](https://github.com/rqlite/rqlite) [![GitHub_Stars](https://img.shields.io/github/stars/rqlite/rqlite?style=social&color=white)](https://github.com/rqlite/rqlite/stargazers)
 - **License**: MIT
 - **Overview**: A lightweight, distributed relational database built on the SQLite storage engine and HashiCorp Raft consensus protocol. Offers an effortless operational footprint with strong fault tolerance.
 - **Key Capabilities**: Single binary deployment, HTTP/REST API with transaction support, automated node discovery, and quorum-based distributed high availability.
 
 ---
 
-### 11. [QuestDB](https://github.com/questdb/questdb) [![GitHub stars](https://img.shields.io/github/stars/questdb/questdb?style=social&color=white)](https://github.com/questdb/questdb/stargazers)
+### 11. [QuestDB](https://github.com/questdb/questdb) [![GitHub_Stars](https://img.shields.io/github/stars/questdb/questdb?style=social&color=white)](https://github.com/questdb/questdb/stargazers)
 - **License**: Apache-2.0
 - **Overview**: A high-performance SQL database engineered for time-series and event data with relational capabilities. Combines zero-GC execution, SIMD hardware acceleration, and the PostgreSQL wire protocol.
 - **Key Capabilities**: Nanosecond timestamp resolution, columnar memory-mapped storage, out-of-order data ingestion, and relational SQL query execution.
 
 ---
 
-### 12. [Citus](https://github.com/citusdata/citus) [![GitHub stars](https://img.shields.io/github/stars/citusdata/citus?style=social&color=white)](https://github.com/citusdata/citus/stargazers)
+### 12. [Citus](https://github.com/citusdata/citus) [![GitHub_Stars](https://img.shields.io/github/stars/citusdata/citus?style=social&color=white)](https://github.com/citusdata/citus/stargazers)
 - **License**: AGPL-3.0
 - **Overview**: A PostgreSQL extension developed by Microsoft that transforms standard Postgres into a horizontally scalable distributed database by sharding data across multiple worker nodes.
 - **Key Capabilities**: Distributed tables, reference tables, real-time parallel query planning across cluster nodes, and purpose-built architectures for multi-tenant SaaS.
 
 ---
 
-### 13. [MySQL Server](https://github.com/mysql/mysql-server) [![GitHub stars](https://img.shields.io/github/stars/mysql/mysql-server?style=social&color=white)](https://github.com/mysql/mysql-server/stargazers)
+### 13. [MySQL Server](https://github.com/mysql/mysql-server) [![GitHub_Stars](https://img.shields.io/github/stars/mysql/mysql-server?style=social&color=white)](https://github.com/mysql/mysql-server/stargazers)
 - **License**: GPL-2.0
 - **Overview**: The world's most ubiquitous open-source relational database. Underpins millions of enterprise production stacks and web applications (WordPress, Drupal, LAMP, and modern cloud microservices).
 - **Key Capabilities**: InnoDB ACID storage engine, row-level locking, group replication, dual-engine query execution, and broad hosting and driver support across all ecosystems.
 
 ---
 
-### 14. [SQLite](https://github.com/sqlite/sqlite) [![GitHub stars](https://img.shields.io/github/stars/sqlite/sqlite?style=social&color=white)](https://github.com/sqlite/sqlite/stargazers)
+### 14. [SQLite](https://github.com/sqlite/sqlite) [![GitHub_Stars](https://img.shields.io/github/stars/sqlite/sqlite?style=social&color=white)](https://github.com/sqlite/sqlite/stargazers)
 - **License**: Public Domain
 - **Overview**: A small, fast, self-contained, high-reliability, full-featured SQL database engine. The most widely deployed software library in human history, embedded inside mobile phones, web browsers, IoT devices, and desktop applications.
 - **Key Capabilities**: Zero-configuration, single cross-platform disk file format, atomic transactions via write-ahead logging (WAL), and minimal resource consumption.
 
 ---
 
-### 15. [YugabyteDB](https://github.com/yugabyte/yugabyte-db) [![GitHub stars](https://img.shields.io/github/stars/yugabyte/yugabyte-db?style=social&color=white)](https://github.com/yugabyte/yugabyte-db/stargazers)
+### 15. [YugabyteDB](https://github.com/yugabyte/yugabyte-db) [![GitHub_Stars](https://img.shields.io/github/stars/yugabyte/yugabyte-db?style=social&color=white)](https://github.com/yugabyte/yugabyte-db/stargazers)
 - **License**: Apache-2.0
 - **Overview**: A cloud-native distributed SQL database featuring dual API layers: YSQL (fully PostgreSQL wire and syntax compatible) and YCQL (Cassandra QL compatible).
 - **Key Capabilities**: Raft-based distributed consensus, distributed transactions with hybrid logical clocks (HLC), multi-cloud active-active deployments, and auto-sharding.
 
 ---
 
-### 16. [OceanBase](https://github.com/oceanbase/oceanbase) [![GitHub stars](https://img.shields.io/github/stars/oceanbase/oceanbase?style=social&color=white)](https://github.com/oceanbase/oceanbase/stargazers)
+### 16. [OceanBase](https://github.com/oceanbase/oceanbase) [![GitHub_Stars](https://img.shields.io/github/stars/oceanbase/oceanbase?style=social&color=white)](https://github.com/oceanbase/oceanbase/stargazers)
 - **License**: MulanPubL-2.0
 - **Overview**: An enterprise distributed relational database originally developed by Ant Group and Alibaba. Designed to handle extreme transactional concurrency with high availability and zero data loss (RPO = 0).
 - **Key Capabilities**: Multi-tenant resource isolation, Paxos distributed consensus, transparent scale-out, columnar storage hybrid execution, and MySQL/Oracle syntax compatibility.
 
 ---
 
-### 17. [MariaDB Server](https://github.com/MariaDB/server) [![GitHub stars](https://img.shields.io/github/stars/MariaDB/server?style=social&color=white)](https://github.com/MariaDB/server/stargazers)
+### 17. [MariaDB Server](https://github.com/MariaDB/server) [![GitHub_Stars](https://img.shields.io/github/stars/MariaDB/server?style=social&color=white)](https://github.com/MariaDB/server/stargazers)
 - **License**: GPL-2.0
 - **Overview**: The community-governed open-source fork of MySQL created by the original founders of MySQL. Serves as a drop-in replacement with enhanced replication, performance, and modern features.
 - **Key Capabilities**: Galera multi-master synchronous clustering, pluggable storage engines (Aria, ColumnStore, MyRocks), temporal tables, and integrated vector search.
 
 ---
 
-### 18. [PostGIS](https://github.com/postgis/postgis) [![GitHub stars](https://img.shields.io/github/stars/postgis/postgis?style=social&color=white)](https://github.com/postgis/postgis/stargazers)
+### 18. [PostGIS](https://github.com/postgis/postgis) [![GitHub_Stars](https://img.shields.io/github/stars/postgis/postgis?style=social&color=white)](https://github.com/postgis/postgis/stargazers)
 - **License**: GPL-2.0
 - **Overview**: The geospatial relational extender for PostgreSQL. Adds spatial data types, spatial indexing (GiST / R-Tree), and hundreds of geospatial functions enabling complex location queries directly in SQL.
 - **Key Capabilities**: OpenGIS compliance, spatial reprojection algorithms, raster and vector geometry processing, and 3D geospatial distance calculations.
 
 ---
 
-### 19. [Percona Server for MySQL](https://github.com/percona/percona-server) [![GitHub stars](https://img.shields.io/github/stars/percona/percona-server?style=social&color=white)](https://github.com/percona/percona-server/stargazers)
+### 19. [Percona Server for MySQL](https://github.com/percona/percona-server) [![GitHub_Stars](https://img.shields.io/github/stars/percona/percona-server?style=social&color=white)](https://github.com/percona/percona-server/stargazers)
 - **License**: GPL-2.0
 - **Overview**: A hardened, enterprise-ready drop-in replacement for MySQL. Includes advanced performance diagnostics, connection thread pooling, and high-performance storage plugins.
 - **Key Capabilities**: Percona XtraDB engine optimizations, MyRocks LSM-tree storage engine, enterprise audit logging, data masking, and deep integration with Percona XtraBackup.
